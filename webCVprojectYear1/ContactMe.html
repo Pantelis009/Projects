@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <title>CV Webpage</title>
+  <link rel="stylesheet" href="Styles/Styles.css">
+  <script src="https://kit.fontawesome.com/b99e675b6e.js"></script>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+
+<body>
+
+
+  <header>
+
+
+    <h1 class="main-header">Pantelis Xiourouppas</h1>
+
+    <nav>
+      <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="Projects.html">Projects</a></li>
+        <li><a href="ContactMe.html">Contact Me</a></li>
+      </ul>
+    </nav>
+
+
+  </header>
+
+  <div class="grid-container">
+    <div class="grid-item">
+      <div id="education">
+        <section id="contactme">
+          <h2> Enguire about Projects here! </h2>
+          <form id="theForm">
+            <input type="text" name="name" placeholder="Name" />
+            <input name="email" placeholder="Email" type="text" required="1" id="email" />
+            <input name="emailConfirm" placeholder="Confirm Email" type="text" id="confemail" onblur="confirmEmail()" />
+            </br></br>
+            <label><input type="radio" name="rdo" value="12w" /> 2 weeks </label>
+            <label><input type="radio" name="rdo" value="12m" /> 2 months</label></br></br>
+            <label> <input type="checkbox" name="cbx" value="sms" />Text</label></br>
+            <label><input type="checkbox" name="cbx" value="emails" />Email</label></br></br>
+            <label for="trainers">Choose a project:</label>
+            <input list="trainers" name="trainer" id="trainer">
+
+            <datalist id="trainers">
+              <option value="Library System">
+              <option value="Weather App">
+              <option value="Mindstorm Lego Robot">
+
+            </datalist>
+            </select>
+            </br> </br>
+            <label> Description of enguire: </br> </br>
+              <textarea name="txtAr" rows="4" cols="30SS"> </textarea>
+            </label>
+
+            <input type="submit" name="Submit" />
+
+          </form>
+        </section>
+
+
+      </div>
+    </div>
+
+    <div class="grid-item">
+      <div id="education">
+        <h1>Contact Me</h1>
+        <b>
+          <p>Email: 160056307@aston.ac.uk</p>
+          <p>Phone Number: 07944759092</p>
+
+        </b>
+
+      </div>
+    </div>
+  </div>
+
+
+
+
+
+</body>
+<footer class="footer">
+  <p> </p>
+  <a href="https://twitter.com/p4NTYX95" class="fa fa-twitter"></a>
+  <a href="https://www.linkedin.com/in/pantelis-xiourouppas-031304232/" class="fa fa-linkedin"></a>
+  <a href="https://github.com/p4NTYX95" class="fa fa-github"></a>
+
+</footer>
+</body>
+
+</html>
